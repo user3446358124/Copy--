@@ -1,0 +1,14 @@
+[
+  {
+    "enabled": true,
+    "pattern": "\\\\\\[",
+    "replacement": "[",
+    "comment": "转义左方括号"
+  },
+  {
+    "enabled": true,
+    "pattern": "\\\\\\]",
+    "replacement": "]",
+    "comment": "转义右方括号"
+  }
+]

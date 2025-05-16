@@ -1,0 +1,56 @@
+[
+  {
+    "enabled": true,
+    "pattern": "\\\\\\[",
+    "replacement": "$$",
+    "comment": "将转义左方括号转换为数学公式块开始符"
+  },
+  {
+    "enabled": true,
+    "pattern": "\\\\\\]",
+    "replacement": "$$",
+    "comment": "将转义右方括号转换为数学公式块结束符"
+  },
+  {
+    "enabled": true,
+    "pattern": "\\\\\\(",
+    "replacement": "$",
+    "comment": "将转义左圆括号转换为行内公式开始符"
+  },
+  {
+    "enabled": true,
+    "pattern": "\\\\\\)",
+    "replacement": "$",
+    "comment": "将转义右圆括号转换为行内公式结束符"
+  },
+  {
+    "enabled": true,
+    "pattern": "\\\\\\{",
+    "replacement": "{",
+    "comment": "修复转义左大括号"
+  },
+  {
+    "enabled": true,
+    "pattern": "\\\\\\}",
+    "replacement": "}",
+    "comment": "修复转义右大括号"
+  },
+  {
+    "enabled": true,
+    "pattern": "\\\\\\|",
+    "replacement": "|",
+    "comment": "修复转义竖线符号"
+  },
+  {
+    "enabled": true,
+    "pattern": "\\\\([^\\[\\](){}|])",
+    "replacement": "\\1",
+    "comment": "移除不必要的单反斜杠转义"
+  },
+  {
+    "enabled": true,
+    "pattern": "\\$\\$(.*?)\\$\\$",
+    "replacement": "\n$$$1$$\n",
+    "comment": "格式化数学公式块间距"
+  }
+]
