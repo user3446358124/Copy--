@@ -1,6 +1,6 @@
 # Copy-- 智能文本转换工具
 
-![软件截图](Copy--/screenshots/main_ui.png)
+![软件截图](https://github.com/user3446358124/Copy--/blob/main/screenshots/main_ui.png)
 
 一款基于正则表达式的智能文本转换工具，支持自定义规则集管理，实时文本转换和剪贴板集成。
 
